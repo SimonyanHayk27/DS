@@ -20,10 +20,7 @@ int foo(const std::string& s) {
 int main() {
     std::string input;
     std::cin >> input;
-
-    int result = foo(input);
-
-    std::cout << result << std::endl;
+    std::cout << foo(input) << std::endl;
     
 
     return 0;
